@@ -69,7 +69,7 @@ public class Page4Navigator<T> {
     private void calcNavigatepageNums() {
         int navigatepageNums[];
         int totalPages = getTotalPages();
-        int num = getNumber();
+        int num = getNumber();//当前页
         //当总页数小于或等于导航页码数时
         if (totalPages <= navigatePages) {
             navigatepageNums = new int[totalPages];
